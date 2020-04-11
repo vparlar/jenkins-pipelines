@@ -12,10 +12,10 @@ node {
 		name: 'Version'), 
 			choice(choices: 
 			[
-			'dev.acirrustech.com', 
-			'qa.acirrustech.com', 
-			'stage.acirrustech.com', 
-			'prod.acirrustech.com'], 
+			'dev.vparlar.com', 
+			'qa.vparlar.com', 
+			'stage.vparlar.com', 
+			'prod.vparlar.com'], 
 	description: 'Please provide an environment to build the application', 
 		name: 'Environment')])])
 	stage("Stage2"){
