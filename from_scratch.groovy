@@ -8,10 +8,10 @@ node {
 		parameters([
 			// Asks for Environment to Build
 			choice(choices: [
-			'dev1.acirrustech.com', 
-			'qa1.acirrustech.com', 
-			'stage1.acirrustech.com', 
-			'prod1.acirrustech.com'], 
+			'dev1.vparlar.com', 
+			'qa1.vparlar.com', 
+			'stage1.vparlar.com', 
+			'prod1.vparlar.com'], 
 			description: 'Please choose an environment', 
 			name: 'ENVIR'),
 
